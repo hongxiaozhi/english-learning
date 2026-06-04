@@ -7,7 +7,7 @@ import base64
 import webbrowser
 import tempfile
 
-AUDIO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "exam-pdfs", "CET-6")
+AUDIO_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "exam-pdfs", "CET-6")
 AUDIO_EXTS = {".mp3", ".wav", ".m4a", ".aac", ".flac", ".ogg"}
 
 
