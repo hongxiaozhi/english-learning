@@ -20,7 +20,7 @@ A personal project to improve English skills.
 - Click "Done" to copy text, then paste in chat for correction
 
 ## Eudic Integration
-- Config: `~/.claude/eudic.json` (API token)
+- Config: `.claude/eudic.json` (API token)
 - Add words to Eudic: `python scripts/eudic.py word1 word2 word3`
 - Claude will automatically add new vocabulary to Eudic when correcting errors
 - Words are added to "英语学习" category in Eudic
