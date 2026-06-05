@@ -6,7 +6,7 @@ import os
 import sys
 import requests
 
-CONFIG_PATH = os.path.expanduser("~/.claude/eudic.json")
+CONFIG_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".claude", "eudic.json")
 BASE_URL = "https://api.frdic.com/api/open/v1"
 
 
